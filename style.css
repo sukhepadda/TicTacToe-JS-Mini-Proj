@@ -1,0 +1,77 @@
+body{
+    background-color: black;
+    color: green;
+}
+.container{
+    text-align: center;
+}
+.heading{
+    margin-bottom: 30px;
+    font-size: 62px;
+}
+.row{
+    display: flex;
+    justify-content: center;
+}
+.col{
+    width: 70px;
+    height: 70px;
+    border: 1px solid red;
+    font-size: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.winner{
+    font-size: 72px;
+}
+.draw{
+    color: red;
+    font-size: 72px;
+}
+button:focus{
+    outline: none;
+}
+.btndefault{
+    background: transparent;
+    border: solid green 3px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    color: red;
+    display: flex;
+    margin: auto;
+    margin-top: 40px;
+    cursor: pointer;
+}
+.btndefault:hover{
+    background-color: green;
+}
+.btnWinner{
+    background: transparent;
+    border: solid green 3px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    color: green;
+    cursor: pointer;
+    
+}
+.btnWinner:hover{
+    background-color: red;
+
+}
+.btnDraw{
+    background: transparent;
+    border: solid red 3px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 24px;
+    color: red;
+    cursor: pointer;
+}
+    .btnDraw:hover{
+        background-color: green;
+
+    }
