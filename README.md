@@ -1,0 +1,2 @@
+# TicTacToe-JS-Mini-Proj
+It is a tic tac toe game with html, css and js.
